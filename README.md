@@ -24,4 +24,5 @@ A hardware implementation of a single-cycle 32-bit RISC-V processor datapath and
 ## Repository Structure
 - **src:** VHDL source code (Datapath, Control Unit, ALU, etc.)
 - **testbench:** Testbench files for simulation and validation
+- **constraints:** Timing constraints (.xdc)
 - **docs:** Schematics, architectural diagrams and documentation
