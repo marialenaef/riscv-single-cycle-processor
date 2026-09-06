@@ -25,4 +25,17 @@ A hardware implementation of a single-cycle 32-bit RISC-V processor datapath and
 - **src:** VHDL source code (Datapath, Control Unit, ALU, etc.)
 - **testbench:** Testbench files for simulation and validation
 - **constraints:** Timing constraints (.xdc)
-- **docs:** Schematics, architectural diagrams and documentation
+- **docs:** RTL schematics and simulation waveforms
+
+## Schematics & Simulation Waveforms
+
+### RTL Schematic
+![ALU RTL Diagram](docs/ALU_RTL_Diagram.png)
+![Control Unit RTL Diagram](docs/Control_Unit_RTL_Diagram.png)
+![Datapath RTL Diagram](docs/Datapath_RTL_Diagram.png)
+
+### Simulation & Verification Waveforms
+![ALU Behavioral Simulation](docs/ALU_Behavioral_Simulation.png)
+![ALU Post Implementation Timing Simulation](docs/ALU_Post_Implementation_Timing_Simulation.png)
+![Processor Behavioral Simulation](docs/Processor_Behavioral_Simulation.png)
+![Processor Post Implementation Timing Simulation](docs/Processor_Behavioral_Simulation.png)
